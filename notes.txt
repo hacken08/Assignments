@@ -1,0 +1,10 @@
+New HTML concept:-
+- ol and li have type and start.
+- Order, underorder, definition and nested list list.
+- we use DL tag to define a definition list.
+- nested list is list within list. 
+
+
+MY TOPIC:-
+- Difference between html 5 and html 4.
+- Explain article and section tags.
