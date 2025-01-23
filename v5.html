@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>HTML v5</title>
+
+    <style>
+        /* styling in v5 */
+        .centered {
+            text-align: center;
+            color: blue;
+            font-size: 24px;
+        }
+    </style>
+</header>
+
+<body>
+
+    <!-- semnatic tags in v5 -->
+    <header>Header</header>
+    <section>Main Content</section>
+    <footer>Footer</footer>
+
+    <!-- multi media support in v5 -->
+    <video controls>
+        <source src="example.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <audio controls>
+        <source src="example.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+
+    <!-- input with types attribute in v5 -->
+    <form action="">
+        <input type="email" />
+    </form>
+
+
+    <!-- Canvas -->
+    <!-- <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'blue';
+        ctx.fillRect(50, 25, 100, 50);
+    </script> -->
+
+    <!-- styling in v5 -->
+    <div class="centered" >Hello, World!</div>
+
+    <!-- v5 supports ARIA support -->
+    <button aria-label="Close">X</button>
+
+    <!-- svg support in v5 -->
+    <img src="410.svg" width="200" alt="">
+
+
+    <!-- depricated tags used in v4 not in v5 -->
+    <!-- <center>
+        <font color="blue" size="5">Hello, World!</font>
+    </center> -->
+    
+
+    <!-- Fetching current geolocation  -->
+    <!-- <div id="demo"></div>
+    <script>
+        console.log("fetching geoloaction");
+        var location;
+        navigator.geolocation.getCurrentPosition((position) => {
+            console.log(position);
+        })
+        console.log();
+    </script> -->
+</body>
+
+</html>
