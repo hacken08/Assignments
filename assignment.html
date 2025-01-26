@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body>    
     <header>
         <div class="container">
             <h1>Anmol Goyal</h1>
@@ -40,8 +42,13 @@
                     <img src="https://avatars.githubusercontent.com/u/124735413?v=4" alt="Anmol Goyal">
                     <div>
                         <p><span class="code-comment">// Hello, World! I'm Anmol Goyal</span></p>
-                        <p>A passionate MERN Stack Developer and a dedicated student at Chandigarh University. With a strong foundation in commerce and a transition into technology, I specialize in full-stack web development.</p>
-                        <p>My journey in tech is driven by a fascination with creating innovative solutions and a desire to continually expand my skillset. From crafting responsive front-end interfaces to designing robust back-end systems, I thrive on the challenges that come with full-stack development.</p>
+                        <p>A passionate MERN Stack Developer and a dedicated student at Chandigarh University. With a
+                            strong foundation in commerce and a transition into technology, I specialize in full-stack
+                            web development.</p>
+                        <p>My journey in tech is driven by a fascination with creating innovative solutions and a desire
+                            to continually expand my skillset. From crafting responsive front-end interfaces to
+                            designing robust back-end systems, I thrive on the challenges that come with full-stack
+                            development.</p>
                     </div>
                 </div>
             </div>
@@ -84,7 +91,8 @@
                         <p>A custom Discord game bot developed to increase user interaction.</p>
                         <ul>
                             <li>Utilized Discord SDK for bot development</li>
-                            <li>Implemented features like moderation commands, role management, and custom server statistics</li>
+                            <li>Implemented features like moderation commands, role management, and custom server
+                                statistics</li>
                             <li>Integrated external APIs for additional functionalities</li>
                             <li>Deployed the bot on a Heroku platform for 24/7 availability</li>
                         </ul>
@@ -96,7 +104,8 @@
                             <li>Implementing user authentication and authorization</li>
                             <li>Exchanging IPs via socket.io for connection</li>
                             <li>Establish peer to peer connection using WebRTC</li>
-                            <li>Integrate system to allow clients to send their live video data through data streams</li>
+                            <li>Integrate system to allow clients to send their live video data through data streams
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -106,9 +115,10 @@
         <section id="hire-me">
             <div class="container">
                 <h2>Hire Me</h2>
-                <p>I'm available for freelance projects and full-time opportunities. Let's work together to bring your ideas to life!</p>
-                <form action="#" method="POST">
-                    <div class="form-row">
+                <p>I'm available for freelance projects and full-time opportunities. Let's work together to bring your
+                    ideas to life!</p>
+                <form >
+                    <!-- <div class="form-row">
                         <div class="form-group">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" required>
@@ -117,7 +127,7 @@
                             <label for="email">Your Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="form-row">
                         <div class="form-group">
                             <label for="project_name">Project Name</label>
@@ -133,10 +143,10 @@
                         <textarea id="project_description" name="project_description" rows="4" required></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="timeline">Expected Timeline</label>
+                        <label for="timeline">Expected Time</label>
                         <input type="text" id="timeline" name="timeline">
                     </div>
-                    <button type="submit">Submit Project Request</button>
+                    <button id="submit" type="button">Submit Project Request</button>
                 </form>
             </div>
         </section>
@@ -147,9 +157,11 @@
                 <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
                 <div class="contact-links">
                     <a href="mailto:anmolgoyal@example.com"><i class="fas fa-envelope"></i> Email</a>
-                    <a href="https://linkedin.com/in/anmolgoyal" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://linkedin.com/in/anmolgoyal" target="_blank"><i class="fab fa-linkedin"></i>
+                        LinkedIn</a>
                     <a href="https://github.com/hacken08" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://wa.me/7009524322?text=Hi,%20" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a href="https://wa.me/7009524322?text=Hi,%20" target="_blank"><i class="fab fa-whatsapp"></i>
+                        WhatsApp</a>
                 </div>
             </div>
         </section>
@@ -160,6 +172,10 @@
             <p>&copy; 2023 Anmol Goyal. All rights reserved.</p>
         </div>
     </footer>
-</body>
-</html>
 
+    <script src="https://www.gstatic.com/firebasejs/11.2.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore-compat.js"></script>  
+    <script src="script.js" ></script>
+</body>
+
+</html>
